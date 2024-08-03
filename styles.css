@@ -2,6 +2,15 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+:root {
+    --black: #000000;
+    --blue: #1992d4;
+    --dark-grey: #6b6b6b;
+    --gold: #f0b429;
+    --grey: #e2e8f0;
+    --white: #ffffff;
+}
+
 svg {
     fill: currentColor;
 }
@@ -44,8 +53,8 @@ small {
 
 /* #region Sidebar */
 aside {
-    background-color: #1992d4;
-    color: #ffffff;
+    background-color: var(--blue);
+    color: var(--white);
     
     width: 250px;
     height: 100vh;
