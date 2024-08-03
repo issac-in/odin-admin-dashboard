@@ -1,3 +1,95 @@
 * {
     font-family: "Source Sans 3", sans-serif;
 }
+
+svg {
+    fill: currentColor;
+}
+
+/* #region Standard Typography */
+/* TypeScale - Scale 1.200 (Minor Third) */
+h1 {
+    font-size: 2.986rem;
+}
+
+h2 {
+    font-size: 2.488rem;
+}
+
+h3 {
+    font-size: 2.074rem;
+}
+
+h4 {
+    font-size: 1.728rem;
+}
+
+h5 {
+    font-size: 1.44rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+small {
+    font-size: 0.833rem;
+}
+/* font-size: 0.694rem; */
+/* #endregion */
+
+/* #region Sidebar */
+aside {
+    background-color: #1992d4;
+    color: #ffffff;
+    
+    width: 250px;
+    height: 100vh;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-rows: 40px 212px 106px;
+    gap: 2rem;
+
+    .logo {
+        font-size: 1.728rem;
+        font-weight: 700;
+
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        gap: 0.5rem;
+
+        svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    svg {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        font-weight: 600;
+
+        padding-left: 0.5rem;
+
+        list-style: none;
+    }
+    
+    li {
+        margin-bottom: 0.4rem;
+
+        display: grid;
+        grid-template-columns: 1.2rem 1fr;
+        gap: 0.8rem;
+        align-items: center;
+    }
+}
+/* #endregion */
